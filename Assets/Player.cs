@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(CrossPlatformInputManager.GetAxis("Horizontal"));
-        Debug.Log(CrossPlatformInputManager.GetAxis("Vertical"));
+        Debug.Log("H" + CrossPlatformInputManager.GetAxis("Horizontal"));
+        Debug.Log("v" + CrossPlatformInputManager.GetAxis("Vertical"));
     }
 }
